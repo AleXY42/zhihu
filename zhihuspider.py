@@ -11,7 +11,6 @@ import sys
 import json
 import urllib
 
-import yaml
 import requests
 from lxml import etree
 from lxml.html import document_fromstring
