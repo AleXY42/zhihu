@@ -3,7 +3,7 @@
 # Date: 2015-01-23 22:48:36
 # --------------------------------------------
 
-"""抓取知乎问题的爬虫.
+"""抓取知乎问题的爬虫
 """
 
 import os
@@ -202,7 +202,7 @@ class ZhihuSpider(object):
                 who_url = urllib.parse.urljoin(self.url_question_prefix,
                                                who_url)
             except Exception as e:
-                log_main.warning('Failed to get poster for {0}'.format(question_url))
+                log_main.warning('Fail to get poster {0}'.format(question_url))
                 who_name = ''
                 who_url = ''
 
